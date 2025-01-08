@@ -1,0 +1,48 @@
+body{
+      font-family: "poppins", sans-serif;
+      background-color: #f4f4f4; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding:20px;
+    max-width: 300px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+}
+
+.title{
+    font-size: 1.2em;
+    color: #777;
+    margin: 5px 0
+}
+
+.description{
+    font-size: 0.9em;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+.social-links{
+    background-color: #0056b3;
+}
+
